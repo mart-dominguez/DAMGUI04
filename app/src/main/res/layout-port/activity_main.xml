@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            app:title="MI TOOLBAR"
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorToolbar"
+            android:elevation="8dp"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme" />
+
+        <TextView
+            style="@style/etiquetas"
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingresar texto VERTICAL"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/texto1"></EditText>
+
+        <Button
+            android:id="@+id/btnNavegarAct2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Boton 2 VERTICAL"></Button>
+
+        <Button
+            style="@style/etiquetas.botones"
+            android:id="@+id/botonX"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Boton X"></Button>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+</LinearLayout>

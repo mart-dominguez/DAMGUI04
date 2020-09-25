@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/opcion1"
+        android:title="OPCION 1"
+        android:icon="@android:drawable/ic_dialog_map"
+        android:orderInCategory="4"
+        app:showAsAction="ifRoom"
+        ></item>
+    <item
+        android:id="@+id/opcion2"
+        android:title="OPCION 2"
+        android:icon="@android:drawable/ic_input_add"
+        android:orderInCategory="2"
+        app:showAsAction="always"
+        ></item>
+    <item
+        android:id="@+id/opcion3"
+        android:title="OPCION 3"
+        android:icon="@android:drawable/ic_lock_silent_mode"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom"
+        ></item>
+    <item
+        android:id="@+id/opcion4"
+        android:title="OPCION 4"
+        android:icon="@android:drawable/ic_dialog_alert"
+        android:orderInCategory="3"
+        app:showAsAction="always"
+        ></item>
+</menu>
